@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crunchyroll Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+           <div class="logo">crunchyroll</div>
+            <nav class="nav-links">
+                <a href="#" class="nav-item">Browse <i class="fa-solid fa-caret-down"></i></a>
+                <a href="#" class="nav-item">Manga</a>
+                <a href="#" class="nav-item">Games</a>
+                <a href="#" class="nav-item">News</a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#" class="nav-item">Premium</a>
+            <div class="user-actions">
+                <i class="fa-regular fa-bookmark"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background">
+                <img src="assets/a1.jpg" alt="Hero Banner">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <img src="assets/logo.png" class="hero-logo" alt="Show Logo">
+                <h1 class="hero-title">Demon Slayer</h1>
+                <p class="hero-description">
+                    It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself.
+
+
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary"><i class="fa-solid fa-play"></i> START WATCHING S1 E1</button>
+                    <button class="btn btn-secondary"><i class="fa-regular fa-bookmark"></i> ADD TO WATCHLIST</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Width Container -->
+        <div class="content-container">
+
+            <!-- Row 0: Continue Watching (New Request) -->
+            <section class="content-row">
+                <div class="row-header">
+                    <h2>Continue Watching</h2>
+                    <a href="#" class="view-all">View History</a>
+                </div>
+                <div class="cards-grid">
+                    <!-- 1 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a2.jpg" alt="Blue Lock">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Blue Lock</h3>
+                            <p class="card-meta">S1 E18 - The Stage for the Lead</p>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-2.png" alt="Stardust Vanguard">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" style="width: 30%;"></div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Stardust Vanguard</h3>
+                            <p class="card-meta">S2 E4 - Zero Gravity</p>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-3.png" alt="Sakura Days">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Sakura Days</h3>
+                            <p class="card-meta">S1 E12 - Graduation</p>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-4.png" alt="Eclipse of the Soul">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar-fill" style="width: 10%;"></div>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Eclipse of the Soul</h3>
+                            <p class="card-meta">S1 E1 - Awakening</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Row 1: Most Popular (Requested: Popular) -->
+            <section class="content-row">
+                <div class="row-header">
+                    <h2>Most Popular</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="cards-grid">
+                    <!-- 5 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a3.jpg" alt="Blade of the Phantom">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Blade of the Phantom</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a4.jpg" alt="Cyber Horizon">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Cyber Horizon</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a5.jpg" alt="Spring Memories">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Spring Memories</h3>
+                            <p class="card-meta">Series • Sub</p>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a6.jpg" alt="Shadow Realm">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Shadow Realm</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a7.jpg" alt="LUFFY">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Luffy</h3>
+                            <p class="card-meta">Series • Sub</p>
+                        </div>
+                    </div>
+                    <!-- 10 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a8.jpg" alt="Jujutsu Kaisen">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Jujutsu Kaisen</h3>
+                            <p class="card-meta">Series • Sub</p>
+                        </div>
+                    </div>
+                    <!-- 11 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a9.jpg" alt="Chainsaw Man">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Chainsaw Man</h3>
+                            <p class="card-meta">Series • Sub</p>
+                        </div>
+                    </div>
+                    <!-- 12 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a10.jpg" alt="Mashle">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Mashle</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a34.jpg" alt="Parasyte">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Parasyte</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a35.jpg" alt="High-Rise Invasion">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">High_Rise Invasion</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a36.jpg" alt="Raga Crimson">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Raga Crimson</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a37.jpg" alt="Plunderer">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Plunderer</h3>
+                            <p class="card-meta">Series • Sub | Dub</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Row 2: Recent Releases (Requested: Recent Release) -->
+            <section class="content-row">
+                <div class="row-header">
+                    <h2>Recent Releases</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="cards-grid">
+                    <!-- 10 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-3.png" alt="Sakura Days">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Sakura Days</h3>
+                            <p class="card-meta">Episode 13 • Just Released</p>
+                        </div>
+                    </div>
+                    <!-- 11 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-4.png" alt="Eclipse of the Soul">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Eclipse of the Soul</h3>
+                            <p class="card-meta">Episode 6 • Today</p>
+                        </div>
+                    </div>
+                    <!-- 12 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-1.png" alt="Chronicles of Aethelia">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Chronicles of Aethelia</h3>
+                            <p class="card-meta">Episode 25 • Yesterday</p>
+                        </div>
+                    </div>
+                    <!-- 13 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-2.png" alt="Stardust Vanguard">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Stardust Vanguard</h3>
+                            <p class="card-meta">Episode 9 • Yesterday</p>
+                        </div>
+                    </div>
+                    <!-- 14 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a11.jpg" alt="One Punch Man">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">One Punch Man</h3>
+                            <p class="card-meta">Episode 3 • 2 days ago</p>
+                        </div>
+                    </div>
+                    <!-- 15 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a12.jpg" alt="Tokyo Revengers">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Tokyo Revengers</h3>
+                            <p class="card-meta">Episode 10 • 2 days ago</p>
+                        </div>
+                    </div>
+                    <!-- 16 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/anime-card-2.png" alt="Cyber Horizon">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Cyber Horizon</h3>
+                            <p class="card-meta">Episode 5 • 3 days ago</p>
+                        </div>
+                    </div>
+                    <!-- 17 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a13.jpg" alt="Black Clover">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Black Clover</h3>
+                            <p class="card-meta">Movie • Added Recently</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a14.jpg" alt="Naruto">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Naruto</h3>
+                            <p class="card-meta">Episode 221 • 22 days ago</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a15.jpg" alt="Suzume">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Suzume</h3>
+                            <p class="card-meta">Episode 12 • 1 days ago</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a16.jpg" alt="The Garden of Words">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">The Garden of Words</h3>
+                            <p class="card-meta">Episode 9 • 9 days ago</p>
+                        </div>
+                    </div>
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a177.jpg" alt="Your Name">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Your Name</h3>
+                            <p class="card-meta">Episode 18 • 0 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Row 3: Trending Anime (Requested: Trending) -->
+            <section class="content-row">
+                <div class="row-header">
+                    <h2>Trending Anime</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="cards-grid">
+                    <!-- 15 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a18.jpg" alt="Demon Slayer">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Demon Slayer</h3>
+                            <p class="card-meta">Series • Sub</p>
+                        </div>
+                    </div>
+                    <!-- 16 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a18.jpg" alt="Demon Slayer">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Demon Slayer</h3>
+                            <p class="card-meta">Series • Trending #1</p>
+                        </div>
+                    </div>
+                    <!-- 17 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a8.jpg" alt="Jujutsu Kaisen">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Jujutsu Kaisen</h3>
+                            <p class="card-meta">Series • Trending #2</p>
+                        </div>
+                    </div>
+                    <!-- 18 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a19.jpg" alt="Attack on Titan">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Attack on Titan</h3>
+                            <p class="card-meta">Series • Trending #3</p>
+                        </div>
+                    </div>
+                    <!-- 19 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a2.jpg" alt="Blue Lock">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Blue Lock</h3>
+                            <p class="card-meta">Series • Trending #4</p>
+                        </div>
+                    </div>
+                    <!-- 20 New -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a20.jpg" alt="Haikyuu">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Haikyuu</h3>
+                            <p class="card-meta">Series • Trending #5</p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </section>
+
+            <!-- Row 4: Popular Hindi Dubbed (New Request) -->
+            <section class="content-row">
+                <div class="row-header">
+                    <h2>Popular Hindi Dubbed</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="cards-grid">
+                    <!-- 20 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a21.jpg" alt="Tokyo Love (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Tokyo Love (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                    <!-- 21 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a22.jpg" alt="Dan Da Dan (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Dan Da Dan (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                    <!-- 22 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a23.jpg" alt="Spy X Family (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Spy X Family (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                    <!-- 23 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a24.jpg" alt="Solo Leveling (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Solo Leveling (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                    <!-- 24 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a25.jpg" alt="Saga (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Saga (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                     <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a26.jpg" alt="Dr.Stone (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Dr.Stone (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                     <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a28.jpg" alt="Scissor Seven (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Scissor Seven (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                     <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a29.jpg" alt="Kingdom (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Kingdom (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                     <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a30.jpg" alt="Steins Gate (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Stenis Gate (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                     <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a31.jpg" alt="Bleach (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Bleach (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                     <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a32.jpg" alt="Assassination Classroom (Hindi)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="card-info">
+                            <h3 class="card-title">Assassination Classroom (Hindi)</h3>
+                            <p class="card-meta">Series • Hindi Dub</p>
+                        </div>
+                    </div>
+                    <!-- 25 -->
+                    <div class="anime-card">
+                        <div class="card-image">
+                            <img src="assets/a33.jpg" alt="Crunchyroll (subscription)">
+                            <div class="hover-overlay"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <button class="btn btn-outline">Start 14-Day Free Trial</button>
+                    </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <a href="#">Browse Popular</a>
+                <a href="#">Browse Simulcasts</a>
+                <a href="#">Browse Manga</a>
+                <a href="#">Release Calendar</a>
+            </div>
+            <div class="footer-column">
+                <h4>Connect With Us</h4>
+                <a href="#">Youtube</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="footer-column">
+                <h4>AnimeHub</h4>
+                <a href="#">About</a>
+                <a href="#">Help/FAQ</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-column">
+                <h4>Account</h4>
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="logo">crunchyroll</div>
+            <p>&copy; 2025 AnimeHub Clone. All rights reserved.</p>
+            <p>A Clone Project By UDAY CHAUHAN</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
